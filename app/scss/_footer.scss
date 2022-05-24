@@ -1,0 +1,41 @@
+.footer {
+    background-color: $darkBlue;
+    color: $white;
+    height: 177px;
+
+    &__logo {
+       // display: inline-block;
+
+        img{
+            width: 175px;
+            height: 175px;
+
+        }
+    
+      }
+
+    &__copyright {
+        
+        font-size: 0.8125rem;
+        color: $grayishBlue;
+        text-align: right;
+        justify-self: end;
+        
+
+    }
+    &__cta {
+
+      text-align: right;
+      justify-self: end;
+      font-size: $font-small;
+      color: $white;
+      transition: opacity 300ms ease-in-out;
+      &:hover{
+          opacity: 0.75;
+      }
+
+      }
+
+
+}
+

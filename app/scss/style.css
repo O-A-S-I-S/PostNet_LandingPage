@@ -1,0 +1,244 @@
+html {
+  font: size 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: #9698a6;
+  line-height: 1.3;
+}
+
+body.noscroll {
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  line-height: 1.15;
+  color: #2d314d;
+  margin-top: 0px;
+}
+
+h1 {
+  font-size: 2.31rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 2.25rem;
+}
+
+a, a:visited, a:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 69.375rem;
+  margin: 0 auto;
+}
+
+.container--pall {
+  padding-top: 3.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 6rem;
+  padding-left: 0.5rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+button, .button {
+  padding: 0.875rem 2.1875rem;
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+}
+
+.header nav {
+  padding: 1.0625rem;
+}
+
+.header__logo img {
+  width: 99px;
+  height: 91px;
+}
+
+.header___links a {
+  position: relative;
+  font-size: 0.875rem;
+  color: #9698a6;
+  -webkit-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+.header___links a:not(:last-child) {
+  margin-right: 32px;
+}
+
+.header___links a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 5px;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+  background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background: linear-gradient(to right, #31d35c, #2bb7da);
+  opacity: 0;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+.header___links a:hover {
+  color: #2d314d;
+}
+
+.header___links a:hover::before {
+  opacity: 1;
+}
+
+.header__cta {
+  font-size: 0.875rem;
+  color: white;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+.header__cta:hover {
+  opacity: 0.75;
+}
+
+.hero {
+  background-color: #fafafa;
+  height: 450px;
+}
+
+.hero__image {
+  position: absolute;
+  width: 514px;
+  height: 449px;
+  background-image: url("/images/imagenMonitor.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  right: 7%;
+}
+
+.hero__text {
+  text-align: left;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.hero__cta {
+  font-size: 0.875rem;
+  color: white;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+.hero__cta:hover {
+  opacity: 0.75;
+}
+
+.hero2 {
+  background-color: #f3f4f6;
+  height: 450px;
+}
+
+.hero2__image {
+  position: absolute;
+  width: 392px;
+  height: 221px;
+  background-image: url("/images/medics.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  right: 7%;
+}
+
+.hero2__text {
+  text-align: left;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.footer {
+  background-color: #2d314d;
+  color: white;
+  height: 177px;
+}
+
+.footer__logo img {
+  width: 175px;
+  height: 175px;
+}
+
+.footer__copyright {
+  font-size: 0.8125rem;
+  color: #9698a6;
+  text-align: right;
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+.footer__cta {
+  text-align: right;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  font-size: 0.875rem;
+  color: white;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+.footer__cta:hover {
+  opacity: 0.75;
+}
+/*# sourceMappingURL=style.css.map */

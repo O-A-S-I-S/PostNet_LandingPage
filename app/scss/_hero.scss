@@ -1,0 +1,50 @@
+.hero{
+    background-color: $veryLightGray;
+    height: 450px;
+    &__image{
+        position: absolute;
+      width: 514px;
+      height: 449px;
+      background-image: url('/images/imagenMonitor.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      right:7%;
+
+    }
+    &__text{
+        text-align: left;
+        flex:2;
+        order:1;
+ 
+    }
+    &__cta{
+        font-size: $font-small;
+        color: $white;
+        transition: opacity 300ms ease-in-out;
+        &:hover{
+            opacity: 0.75;
+        }
+    }
+}
+
+.hero2{
+    background-color: $lightGrayishBlue;
+    height: 450px;
+    &__image{
+        position: absolute;
+      width: 392px;
+      height: 221px;
+      background-image: url('/images/medics.png');
+      background-size: 90%;
+      background-repeat: no-repeat;
+      right:7%;
+
+
+    }
+    &__text{
+        text-align: left;
+        flex:2;
+        order:1;
+ 
+    }
+}
