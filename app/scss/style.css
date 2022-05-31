@@ -58,6 +58,18 @@ a, a:visited, a:hover {
   padding-left: 0.5rem;
 }
 
+.container--pallText1 {
+  padding-top: 15rem;
+  padding-right: 40rem;
+  padding-bottom: 6rem;
+}
+
+.container--pallText2 {
+  padding-top: -10000rem;
+  padding-right: 40rem;
+  padding-bottom: 6rem;
+}
+
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -200,13 +212,74 @@ button, .button {
 }
 
 .hero2__text {
-  text-align: left;
+  text-align: right;
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
           order: 1;
+}
+
+.hero3 {
+  background-color: #fafafa;
+  height: 450px;
+}
+
+.hero3__image {
+  position: absolute;
+  width: 357px;
+  height: 288px;
+  background-image: url("/images/oasis_painted.png");
+  background-size: 100%;
+}
+
+.hero3__text {
+  text-align: right;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.hero4 {
+  background-color: #f3f4f6;
+  height: 450px;
+}
+
+.hero4__image1 {
+  position: relative;
+  width: 188px;
+  height: 151px;
+  background-image: url("/images/mission.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  right: 7%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.hero4__image2 {
+  position: relative;
+  width: 225px;
+  height: 225px;
+  background-image: url("/images/vison.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  right: 7%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.hero4__text1 {
+  text-align: center;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
 }
 
 .footer {

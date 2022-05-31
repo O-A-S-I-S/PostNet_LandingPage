@@ -7,7 +7,7 @@ class MyHeader extends HTMLElement{
             <img src="images/logo_transparent.png" alt="PostNet">
         
           <div class="header___links ">
-            <a href="/index.html">Home</a> <a href="#">About us</a> 
+            <a href="/index.html">Home</a> <a href="#aboutUs">About us</a> 
           </div>
         
           <a href="#" class="button header__cta" >Contact us</a>

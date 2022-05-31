@@ -10,6 +10,7 @@
       background-repeat: no-repeat;
       right:7%;
 
+
     }
     &__text{
         text-align: left;
@@ -42,9 +43,67 @@
 
     }
     &__text{
-        text-align: left;
+        text-align: right;                                                                                                                                                                                              
         flex:2;
         order:1;
  
     }
+}
+
+.hero3{
+    background-color: $veryLightGray;
+    height: 450px;
+    &__image{
+        position: absolute;
+      width: 357px;
+      height: 288px;
+      background-image: url('/images/oasis_painted.png');
+      background-size: 100%;
+
+    }
+    &__text{
+        text-align: right;
+        flex:2;
+        order:1;
+ 
+    }
+
+}
+.hero4{
+    background-color: $lightGrayishBlue;
+    height: 450px;
+    &__image1{
+        position: relative;
+      width: 188px;
+      height: 151px;
+      background-image: url('/images/mission.png');
+      background-size: 90%;
+      background-repeat: no-repeat;
+      right:7%;
+      align-self: center;
+
+
+    }
+    &__image2{
+        position: relative;
+      width: 225px;
+      height: 225px;
+      background-image: url('/images/vison.png');
+      background-size: 90%;
+      background-repeat: no-repeat;
+      right:7%;
+      align-self: center;
+
+
+
+    }
+    &__text1{
+        text-align:center;      
+                                                                                                                                                                                                
+        flex:2;
+        //order:1;
+ 
+    }
+  
+    
 }

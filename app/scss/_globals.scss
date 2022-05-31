@@ -52,6 +52,18 @@ a,a:visited,a:hover{
         padding-bottom: 6rem;
         padding-left: 0.5rem;
     }
+ 
+    &--pallText1{
+        padding-top: 15rem;
+        padding-right: 40rem;
+        padding-bottom: 6rem;
+    }
+    &--pallText2{
+        padding-top: -10000rem;
+        padding-right: 40rem;
+        padding-bottom: 6rem;
+    }
+   
 }
 .flex{
     display:flex;
