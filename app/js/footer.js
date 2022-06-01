@@ -5,7 +5,7 @@ class MyFooter extends HTMLElement{
         <footer class="footer">
 
         <a class="footer__logo" href="#">
-        <img src="/images/logo_transparent.png" />
+        <img src="./images/logo_transparent.png" />
         </a>
 
     

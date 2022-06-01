@@ -114,22 +114,47 @@
 }
 .contactUs{
     background-color: $veryLightGray;
-    height: 450px;
+    height: 872px;
     &__image{
         position: absolute;
-      width: 357px;
-      height: 288px;
-      background-image: url('/images/oasis_painted.png');
-      background-size: 100%;
-      left:11%;
-      top:112%;
+        width: 681px;
+        height: 679px;
+        background-image: url('/images/123.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        right:7%;
 
     }
     &__text{
-        text-align: right;
+        text-align: left;
         flex:2;
         order:1;
  
     }
 
+}
+.thanks{
+    background-color: $veryLightGray;
+    height: 550px;
+    &__image{
+        position: absolute;
+      width: 553px;
+      height: 527px;
+      background-image: url('/images/doctor.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      left:7%;
+      bottom:31%;
+
+    }
+    &__text{
+        position: absolute;
+        text-align:center;
+        flex:2;
+        order:1;
+        bottom:40%;
+        right:20%;
+ 
+    }
+ 
 }

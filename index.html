@@ -12,7 +12,7 @@
   
   <title>PostNet by O.A.S.I.S </title>
 
- <script src="/app/js/header.js"></script>
+ <script src="./app/js/header.js"></script>
   <my-header></my-header>
 </head>                            
 <section class ="hero">
@@ -28,7 +28,7 @@
         Déjanos a nosotros el trabajo y concentrate en lo más importante: tu salud y bienestar.
       </p>
   
-      <a href="#" class="button hero__cta" >Contact us</a>
+      <a href="#contactUs" class="button hero__cta" >Contact us</a>
     </div>
   </div>
 </section>
@@ -92,25 +92,31 @@
     </div>
 
 </section>
-<section class="contactUs">
+<section class="contactUs" id="contactUs">
   <div class="container">
+    <div class="contactUs__image"></div>
+    <div class="contactUs__text container--pall">
     <h1>Déjanos tus datos</h1>
     <p>Nos contactaremos contigo lo más pronto posible</p>
     <form action="https://formsubmit.co/relibrana@email.com" method="POST">
       Nombres(s)<br>
-      <input type="text" name="name" required><br>
+      <input type="text" name="name" required  style="width:362px; height:32px;border-radius: 12px;border: 1px solid #2D314D;"><br>
       Apellido(s)<br>
-      <input type="text" name="lastname" required><br>
-      <input type="hidden" name="_next" value="https://postnetbyoasis.netlify.app/thanks.html">
+      <input type="text" name="lastname" required  style="width:362px; height:32px;border-radius: 12px;border: 1px solid #2D314D;"><br>
+      <input type="hidden" name="_next" value="https://postnetbyoasis.netlify.app/pages/thanks.html">
+      <input type="hidden" name="_subject" value="Gracias por interesarte en PostNet">
+      <input type="hidden" name="_autoresponse" value="Por el momento nos encontramos construyendo el sitio para una mejor experiencia. Pero tranquilo, apenas este listo el aplicativo te avisaremos.">
       Correo electrónico<br>
-      <input type="email" name="email" placeholder="Email Address"><br>
+      <input type="email" name="email" required  style="width:362px; height:32px;border-radius: 12px;border: 1px solid #2D314D;"><br>
       Comentarios extra<br>
-      <input type="text" name="extraComments"><br>
+      <input type="text" name="extraComments"  style="width:362px; height:100px;border-radius: 12px;border: 1px solid #2D314D;"><br>
+      <br>
       <button type="submit">Enviar</button>
  </form>
+</div>
   </div>
 </section>
-<script src="/app/js/footer.js"></script>
+<script src="./app/js/footer.js"></script>
 <my-footer></my-footer>
 
 </html>
